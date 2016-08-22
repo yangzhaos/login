@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".yz.activity.HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:orientation="vertical">
+
+        <app.feicui.edu.login.yz.View.ActionBarView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/light" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/light"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/button6"
+        android:layout_alignLeft="@+id/button6"
+        android:layout_alignStart="@+id/button6"
+        android:layout_marginBottom="20dp"
+        android:background="#202256"
+        android:text="电灯"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="#202256"
+        android:text="New Button"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#202256"
+        android:text="New Button"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#202256"
+        android:text="New Button"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/light"
+        android:background="#202256"
+        android:text="New Button"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/light"
+        android:background="#202256"
+        android:text="New Button"
+        android:textColor="#fff" />
+</RelativeLayout>

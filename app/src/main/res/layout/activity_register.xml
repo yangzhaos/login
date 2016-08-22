@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:text="欢迎注册"
+        android:textColor="#461111"
+        android:textSize="40dp" />
+
+    <EditText
+        android:id="@+id/redt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:hint="请输入用户名:" />
+
+    <EditText
+        android:id="@+id/redt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/redt1"
+        android:hint="请输入密码:"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/rbtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/redt2"
+        android:text="注册" />
+
+    <Button
+        android:id="@+id/rbtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv"
+        android:layout_alignStart="@+id/tv"
+        android:layout_alignTop="@+id/rbtn1"
+        android:text="返回登录" />
+
+</RelativeLayout>
